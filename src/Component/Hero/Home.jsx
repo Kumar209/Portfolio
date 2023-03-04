@@ -15,8 +15,8 @@ const Home = () => {
                         <h1>Hi, I'm <span>Prashant Kumar Verma</span></h1>
                         <h2>a <span>
                             <Typewriter
-                                words={['Frontend Developer', 'Backend Developer', 'Full Web Stack Developer', 'Coder']}
-                                loop={10}
+                                words={['Frontend Developer', 'Backend Developer', 'Full Stack Web Developer', 'Coder']}
+                                loop={50}
                                 cursor
                                 cursorStyle='|'
                                 typeSpeed={70}
@@ -70,7 +70,6 @@ const Home = () => {
 
                     <div className="right">
                         <div className="right_img">
-                            {/* <img src={hero} alt="" /> */}
                             <img src={photo1} alt="" />
                         </div>
                     </div>
