@@ -1,0 +1,195 @@
+.portfolio {
+    position: relative;
+}
+
+.portfolio .box {
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio .box:hover {
+    background: none;
+    transform: translateX(0);
+}
+
+.portfolio .img {
+    height: 190px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.portfolio .box .img:hover img {
+    transform: scale(1.2);
+}
+
+.portfolio .category {
+    margin: 20px 0 15px 0;
+    text-transform: uppercase;
+}
+
+.portfolio .category span {
+    color: #ff014f;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.portfolio .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(45deg);
+    font-size: 20px;
+    color: #ff014f;
+    /* opacity: 0; */
+    transition: 0.5s;
+}
+
+.portfolio .title:hover .arrow {
+    opacity: 1;
+}
+
+.portfolio h2 {
+    font-size: 18px;
+    transition: 0.5s;
+    padding-bottom: 10px;
+}
+
+.portfolio .box:hover h2 {
+    color: #ff014f;
+}
+
+.portfolio .box:hover {
+    color: black;
+}
+
+.portfolio label i {
+    margin-right: 5px;
+    color: #ff014f;
+}
+
+
+/*------------------------ popup css ----------------------------*/
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.overlay {
+    background-color: #ecf0f3;
+}
+
+.modal-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    line-height: 1.4;
+    background-color: #f0f3f5;
+    padding: 14px 28px;
+    min-width: 60%;
+    max-width: 85%;
+    z-index: 9999;
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+
+.modal-text {
+    padding: 0 70px 0 50px;
+}
+
+.modal-text h1 {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+.modal-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.modal-text button {
+    margin-right: 20px;
+    color: #ff014f;
+}
+
+.modal-text button i {
+    margin-left: 10px;
+}
+
+.modal-text button.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    pad: 0 0;
+    font-size: 20px;
+    padding: 0;
+}
+
+.close-modal i {
+    padding: 0 5px 0 0;
+}
+
+
+@media (max-width: 768px) {
+    .modal,
+    .overlay {
+        overflow: scroll;
+    }
+
+    .modal .modal-img {
+        margin: 50px 0 50px 0;
+    }
+
+    .modal-content {
+        flex-direction: column-reverse;
+    }
+
+    .modal .right,
+    .modal .left {
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .portfolio .img {
+        width: 100%;
+    }
+
+    .modal .modal-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .portfolio .box {
+        margin: 0 10px;
+    }
+}

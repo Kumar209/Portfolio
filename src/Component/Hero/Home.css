@@ -1,0 +1,137 @@
+.hero {
+    position: relative;
+}
+
+.hero h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #ff014f;
+}
+
+.hero h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff014f;
+}
+
+.hero h2 span {
+    color: black;
+}
+
+.hero p {
+    color: #878e99;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.hero_btn {
+    margin-top: 10%;
+}
+
+.hero_btn h4 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 13px;
+    margin: 30px 0 30px 0;
+}
+
+.hero_btn button {
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.hero_btn i {
+    font-size: 20px;
+}
+
+.btn_mine {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ff014f;
+}
+
+
+.hero .left {
+    margin-right: 8%;
+    margin-left: 3%;
+}
+
+.hero .right {
+    margin-left: 10px;
+    width: 40%;
+    position: relative;
+}
+
+.hero .right_img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 480px;
+    /* width: 80%; */
+     height: 518px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .right_img img {
+    border-radius: 20px;
+    width: 80%;
+    height: 85%;
+
+}
+
+
+@media (max-width:768px) {
+
+    .hero .left,
+    .hero .right {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .hero .left {
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .hero .right_img {
+        position: relative;
+        left: 12%;
+    }
+
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero .right {
+        margin: 0;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .hero .right_img {
+        width: 90%;
+        height: 50%;
+    }
+
+    .hero .right_img img {
+        width: 80%;
+        padding: 30px 0;
+    }
+
+}
