@@ -29,7 +29,7 @@ const About = () => {
                     <div className="content-section mtop d_flex">
                         <div className="left1">
                             <div className="heading">
-                                <h4>2017 - 2020</h4>
+                                <h4>2017 - 2024</h4>
                                 <h1>Education Quality</h1>
                             </div>
 
