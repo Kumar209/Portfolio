@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
 
             <div className='right box_shadow'>
-              <form >
+              <form action="https://formsubmit.co/prashantkumarlmp666@gmail.com" method="POST">
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
@@ -87,18 +87,22 @@ const Contact = () => {
                     <input type='number' name='phone' />
                   </div>
                 </div>
+
                 <div className='input'>
                   <span>EMAIL </span>
                   <input type='email' name='email'/>
                 </div>
+
                 <div className='input'>
                   <span>SUBJECT </span>
                   <input type='text' name='subject'/>
                 </div>
+
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
                   <textarea cols='30' rows='10' name='message'></textarea>
                 </div>
+
                 <button className='btn_shadow'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
                 </button>
