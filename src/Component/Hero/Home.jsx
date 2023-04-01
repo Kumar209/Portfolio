@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import photo1 from '../pic/photo1.jpg';
+import hero from '../pic/hero.png';
 
 
 import { Typewriter } from 'react-simple-typewriter'
@@ -58,12 +59,6 @@ const Home = () => {
                                         CONTACT ME
                                     </button>
                                 </a>
-
-                                {/* <a href="#contact">
-                                    <button className="btn_shadow btn_mine">
-                                        Hire me
-                                    </button>
-                                </a> */}
                             </div>
                         </div>
                     </div>
