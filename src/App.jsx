@@ -6,7 +6,6 @@ import Features from './Component/Features/Features';
 import Portfolio from './Component/Portfolio/Portfolio';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
-import Footer from './Component/Footer/Footer';
 
 const App = () => {
   return (
