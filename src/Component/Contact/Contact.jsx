@@ -49,10 +49,10 @@ const Contact = () => {
             <div className='right box_shadow'>
               <form action="https://formsubmit.co/4e2e667fc27396a444d5aba7421c0bac" method="POST">
                 {/* Honeypot */}
-                <input type="text" name="_honey" style="display:none" />
+                {/* <input type="text" name="_honey" style="display:none" /> */}
 
                 {/* Disable Captcha */}
-                {/* <input type="hidden" name="_captcha" value="false" /> */}
+                 <input type="hidden" name="_captcha" value="false" /> 
 
                 <div className='f_flex'>
                   <div className='input row'>
