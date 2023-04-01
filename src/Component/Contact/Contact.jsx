@@ -48,30 +48,32 @@ const Contact = () => {
 
             <div className='right box_shadow'>
               <form action="https://formsubmit.co/4e2e667fc27396a444d5aba7421c0bac" method="POST">
+                {/* Honeypot */}
+                <input type="text" name="_honey" style="display:none"></input>
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname'/>
+                    <input type='text' name='Fullname'/>
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
-                    <input type='number' name='phone' />
+                    <input type='number' name='Phone' />
                   </div>
                 </div>
 
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email'/>
+                  <input type='email' name='Email'/>
                 </div>
 
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject'/>
+                  <input type='text' name='Subject'/>
                 </div>
 
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message'></textarea>
+                  <textarea cols='30' rows='10' name='Message'></textarea>
                 </div>
 
                 <button className='btn_shadow'>
