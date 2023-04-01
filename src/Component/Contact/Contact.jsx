@@ -52,7 +52,7 @@ const Contact = () => {
                 <input type="text" name="_honey" style="display:none" />
 
                 {/* Disable Captcha */}
-                <input type="hidden" name="_captcha" value="false" />
+                {/* <input type="hidden" name="_captcha" value="false" /> */}
 
                 <div className='f_flex'>
                   <div className='input row'>
