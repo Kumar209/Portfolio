@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
 
             <div className='right box_shadow'>
-              <form action="https://formsubmit.co/prashantkumarlmp666@gmail.com" method="POST">
+              <form action="https://formsubmit.co/4e2e667fc27396a444d5aba7421c0bac" method="POST">
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
