@@ -54,10 +54,12 @@ const Contact = () => {
                 {/* Disable Captcha */}
                 <input type="hidden" name="_captcha" value="false"></input>
 
+                <input type="hidden" name="_next" value="https://kumar209.github.io/Portfolio/"></input>
+
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='Fullname'/>
+                    <input type='text' name='Full&nbsp;Name'/>
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
