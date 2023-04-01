@@ -1,42 +1,117 @@
-import React, { useState } from 'react';
-import photo1 from '../pic/photo1.jpg';
-import './Contact.css';
+import React, { useState } from "react"
+import contact1 from "../pic/contact1.png"
+import "./Contact.css"
 
 const Contact = () => {
+  // const [data, setData] = useState({
+  //   fullname: "",
+  //   phone: "",
+  //   email: "",
+  //   subject: "",
+  //   message: "",})
+
+  // const InputEvent = (event) => {
+  //   const { name, value } = event.target
+
+  //   setData((preVal) => {
+  //     return {
+  //       ...preVal,
+  //       [name]: value,
+  //     }
+  //   })
+  // }
+
+  // const formSubmit = (event) => {
+  //   event.preventDefault()
+  //   alert(
+  //     `My name is ${data.fullname}. 
+	// My phone number is ${data.phone}. 
+	// My email address is ${data.email}. 
+	// My Subject on  ${data.subject}. 
+	// Here is my message I want to say : ${data.message}. 
+	// `
+  //   )
+  // }
   return (
-    <React.Fragment>
-      <section className="Contact" id="contact">
-        <div className="container top">
-          <div className="heading text-center">
+    <>
+      <section className='Contact' id='contact'>
+        <div className='container top'>
+          <div className='heading text-center'>
             <h4>CONTACT</h4>
             <h1>Contact With Me</h1>
           </div>
-          <div className="contact_content btn_shadow box d_flex">
-            <h2>Stay Connected</h2>
-            <h4>prashantkumarlmp666@gmail.com</h4>
-            <p>+91 9559717070</p>
-            <div className="button mtop">
 
-              <a href="https://twitter.com/KumarP666?t=1YZGgL5bTUQ8nPnsavq9Ew&s=09" target="_blank">
-                <buttton className="contact_btn btn_shadow"><i class="fa-brands fa-twitter"></i></buttton>
-              </a>
+          <div className='content d_flex'>
+            <div className='left'>
+              <div className='box box_shadow'>
+                <div className='img'>
+                  <img src={contact1} alt='' />
+                </div>
+                <div className='details'>
+                  <h1>Prashant Kumar Verma</h1>
+                  {/* <p>Chief Operating Officer</p> */}
+                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+                  <p>Phone: +91 9559717070</p>
+                  <p>Email: prashantkumarlmp666@gmail.com</p> <br />
+                  <span>FIND WITH ME</span>
+                  <div className='button f_flex'>
+                  <a href="https://github.com/Kumar209" target="_blank">
+                    <button className='btn_shadaw'>
+                      <i className='fa-brands fa-github'></i>
+                    </button>
+                  </a>
 
-              <a href="https://github.com/Kumar209" target="_blank">
-                <buttton className="contact_btn btn_shadow"><i class="fa-brands fa-github"></i></buttton>
-              </a>
+                    <button className='btn_shadaw'>
+                      <i className='fab fa-instagram'></i>
+                    </button>
 
-              <a href="#contact" target="_blank">
-                <buttton className="contact_btn btn_shadow"><i class="fa-brands fa-facebook"></i></buttton>
-              </a>
+                    <a href="https://twitter.com/KumarP666?t=1YZGgL5bTUQ8nPnsavq9Ew&s=09" target="_blank">
+                    <button className='btn_shadaw'>
+                      <i className='fab fa-twitter'></i>
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-              <a href="https://www.linkedin.com/in/prashant-kumar-verma-862793203/" target="_blank">
-                <buttton className="contact_btn btn_shadow"><i class="fa-brands fa-linkedin-in"></i></buttton>
-              </a>
+            <div className='right box_shadow'>
+              <form action="https://formsubmit.co/prashantkumarlmp666@gmail.com" method="POST">
+                <div className='f_flex'>
+                  <div className='input row'>
+                    <span>YOUR NAME</span>
+                    <input type='text' name='fullname'/>
+                  </div>
+                  <div className='input row'>
+                    <span>PHONE NUMBER </span>
+                    <input type='number' name='phone' />
+                  </div>
+                </div>
+
+                <div className='input'>
+                  <span>EMAIL </span>
+                  <input type='email' name='email'/>
+                </div>
+
+                <div className='input'>
+                  <span>SUBJECT </span>
+                  <input type='text' name='subject'/>
+                </div>
+
+                <div className='input'>
+                  <span>YOUR MESSAGE </span>
+                  <textarea cols='30' rows='10' name='message'></textarea>
+                </div>
+
+                <button className='btn_shadow'>
+                  SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </>
   )
 }
 
