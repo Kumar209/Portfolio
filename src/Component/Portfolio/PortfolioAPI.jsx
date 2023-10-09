@@ -2,6 +2,7 @@ import tindog from '../pic/tindog.png';
 import drumkit from '../pic/drumkit.png';
 import adviceCard from '../pic/adviceCard.png';
 import urlShortener from '../pic/urlShortener.jpg';
+import Hostel from '../pic/HostelComplain.jpeg';
 
 const Portfolio_data = [
     {
@@ -48,6 +49,17 @@ const Portfolio_data = [
         desc1: "It is a Web App which converts your very long url into short url for easy use. It basically uses shrtCode API for the short url generation.",
         desc2: "Technology used are HTML, CSS, JavaScript, API",
     },
+    {
+        id:5,
+        category: "Web Application",
+        title: "BIAS Hostel Complaint System",
+        image: Hostel,
+        featured: "Full Stack Web App",
+        githublink: "https://github.com/Kumar209/Bias-Hostel-Complain-System",
+        live_website_link: "https://bias-hostel-complaint-system.onrender.com/",
+        desc1:"It is group project. We Digitilized out Hostel complain system",
+        desc2: "Technology used are HTML, CSS, JavaScript, EJS, expressJs, JWT, MongoDb"
+    }
 ];
 
 export default Portfolio_data;
