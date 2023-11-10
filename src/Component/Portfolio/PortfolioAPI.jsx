@@ -3,6 +3,8 @@ import drumkit from '../pic/drumkit.png';
 import adviceCard from '../pic/adviceCard.png';
 import urlShortener from '../pic/urlShortener.jpg';
 import Hostel from '../pic/HostelComplain.jpeg';
+import Eshop from '../pic/Eshop.png';
+
 
 const Portfolio_data = [
     {
@@ -59,6 +61,17 @@ const Portfolio_data = [
         live_website_link: "https://bias-hostel-complaint-system.onrender.com/",
         desc1:"It is group project. We Digitilized out Hostel complain system",
         desc2: "Technology used are HTML, CSS, JavaScript, EJS, expressJs, JWT, MongoDb"
+    },
+    {
+        id:6,
+        category: "Web Application",
+        title: "Ecommerce Website",
+        image: Eshop,
+        featured: "NextJs Web App",
+        githublink: "https://github.com/Kumar209/Eshop_NextJs",
+        live_website_link: "https://eshop-next-js.vercel.app/",
+        desc1:"It is NexJs project. Ecommerce Website where you can buy amazing accessories , labtop, watches, etc.",
+        desc2: "Technology used are ReactJS, NextJs, NextAuth, Prisma, MongoDb"
     }
 ];
 
