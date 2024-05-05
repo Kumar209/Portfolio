@@ -4,6 +4,7 @@ import adviceCard from '../pic/adviceCard.png';
 import urlShortener from '../pic/urlShortener.jpg';
 import Hostel from '../pic/HostelComplain.jpeg';
 import Eshop from '../pic/Eshop.png';
+import form from '../pic/MultiStepForm.jpg';
 
 
 const Portfolio_data = [
@@ -21,13 +22,13 @@ const Portfolio_data = [
     {
         id: 2,
         category: "Web Application",
-        title: "Drum kit",
-        image: drumkit,
+        title: "Multi Step Form Frontent_Mentor Challenge",
+        image: form,
         featured: "Frontend Web App",
-        githublink: "https://github.com/Kumar209/Drum-Kit",
-        live_website_link: "https://kumar209.github.io/Drum-Kit/",
-        desc1: "It is Web App based on Drum Set. It basically play a sound on the click of the button of respective drum.",
-        desc2: "Technology used are HTML, CSS, JavaScript",
+        githublink: "https://github.com/Kumar209/Multi-Step-Form-Frontend-Mentor-Challenge",
+        live_website_link: "https://kumar209.github.io/Multi-Step-Form-Frontend-Mentor-Challenge/",
+        desc1: "Fontend Mentor Challenge for Multi-Step Form",
+        desc2: "Technology used are ReactJs, Tailwind, React-hook-form, Redux toolkit",
     },
     {
         id: 3,

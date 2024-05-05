@@ -32,9 +32,11 @@ const Contact = () => {
                     </button>
                   </a>
 
+                  <a href="https://www.linkedin.com/in/prashant-kumar-verma-862793203/" target="_blank">
                     <button className='btn_shadaw'>
-                      <i className='fab fa-instagram'></i>
+                      <i className='fa-brands fa-linkedin-in'></i>
                     </button>
+                  </a>
 
                     <a href="https://twitter.com/KumarP666?t=1YZGgL5bTUQ8nPnsavq9Ew&s=09" target="_blank">
                     <button className='btn_shadaw'>
